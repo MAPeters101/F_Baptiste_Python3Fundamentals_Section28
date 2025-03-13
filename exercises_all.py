@@ -1,15 +1,19 @@
 '''
 Question 1
-Use the pytz and dateutil libraries to convert this string into a UTC naive datetime object.
+Use the pytz and dateutil libraries to convert this string into a UTC naive
+datetime object.
 
 t = "Feb 8, 2021 5:30pm (Denver Time)"
 Question 2
 Use the requests library to load the following html page:
 
 url = 'https://en.wikipedia.org/wiki/John_von_Neumann'
-Once you have loaded that page, extract the title of that page, which is the text located between the <title> and </title> tags (often referred to as opening and closing tags, or start and end tags, respectively).
+Once you have loaded that page, extract the title of that page, which is the
+text located between the <title> and </title> tags (often referred to as
+opening and closing tags, or start and end tags, respectively).
 
-Hint: You'll want to read the Python docs for the find method available for strings:
+Hint: You'll want to read the Python docs for the find method available for
+strings:
 
 https://docs.python.org/3/library/stdtypes.html?highlight=string#str.find
 
